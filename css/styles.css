@@ -199,8 +199,8 @@ img {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  min-width: 169px;
-  height: 56px;
+  /* min-width: 169px;
+  height: 56px; */
 }
 .btn-order:hover,
 .btn-order:focus {
@@ -363,12 +363,9 @@ img {
   gap: 24px;
 }
 
-.socials-item {
-}
-
 .socials-link {
-  /* width: 44px;
-  height: 44px; */
+  width: 44px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -379,11 +376,13 @@ img {
 
 .socials-link:hover,
 .socials-link:focus {
-  background-color: var(--pressed-state);
+  background-color: var(--valid-clr);
 }
 
 .socials-icon {
   fill: var(--color-cloud);
+  width: 40px;
+  height: 40px;
 }
 
 /**
@@ -412,8 +411,8 @@ img {
   display: flex;
   /* flex-wrap: nowrap; */
   gap: 24px;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   /* width: 168px; */
 }
 
@@ -492,11 +491,7 @@ img {
   color: var(--color-cloud);
 }
 
-.socials-footer-icon {
-}
 
-.socials-footer-item {
-}
 
 /**
   |===============================================
@@ -543,17 +538,11 @@ img {
 
 .socials-footer-link:hover,
 .socials-footer-link:focus {
-  /* border-color: var(--valid-clr); */
+  background-color: var(--valid-clr);
 }
-
-
 
 .socials-footer-icon {
   fill: var(--color-cloud);
-
-}
-
-.socials-footer-icon {
   width: 40px;
   height: 40px;
 }
@@ -589,16 +578,16 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
-  text-align: center;
+  /* align-items: center;
+  text-align: center; */
   letter-spacing: 0.04em;
   background-color: var(--color-cloud);
   color: var(--primary-brand);
   cursor: pointer;
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
-  min-width: 78px;
-  min-height: 48px;
+  /* min-width: 78px;
+  min-height: 48px; */
   padding: 12px 24px;
 }
 .btn-filter:hover,
@@ -669,10 +658,7 @@ img {
   max-width: 1440px; */
 }
 
-.socials-footer-link:hover,
-.socials-footer-link:focus {
-  background-color: var(--valid-clr);
-}
+
 /**
     |!!!==PRACTICE ZONE==!!!
     | Роблю експеріменти з градієнтом
