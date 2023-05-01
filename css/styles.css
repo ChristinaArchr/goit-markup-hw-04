@@ -531,10 +531,6 @@ img {
   gap: 16px;
 }
 
-.socials-footer-item {
-  width: 40px;
-  height: 40px;
-}
 
 .socials-footer-link {
   display: flex;
@@ -550,8 +546,14 @@ img {
   /* border-color: var(--valid-clr); */
 }
 
+
+
 .socials-footer-icon {
   fill: var(--color-cloud);
+
+}
+
+.socials-footer-icon {
   width: 40px;
   height: 40px;
 }
