@@ -398,13 +398,13 @@ img {
 }
 
 .customers-title {
-  /* font-weight: 700;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.1px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--grey-bg); */
+  color: var(--grey-bg);
   margin-bottom: 72px;
 }
 
@@ -532,8 +532,8 @@ img {
 }
 
 .socials-footer-item {
-  /* width: 40px;
-  height: 40px; */
+  width: 40px;
+  height: 40px;
 }
 
 .socials-footer-link {
