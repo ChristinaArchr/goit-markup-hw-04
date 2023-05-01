@@ -361,6 +361,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  
 }
 
 .socials-link {
@@ -376,11 +377,16 @@ img {
 
 .socials-link:hover,
 .socials-link:focus {
-  background-color: var(--valid-clr);
+  background-color: #404bbf;
 }
 
 .socials-icon {
   fill: var(--color-cloud);
+  /* width: 40px;
+  height: 40px; */
+}
+
+.socials-item {
   width: 40px;
   height: 40px;
 }
@@ -542,9 +548,14 @@ img {
 }
 
 .socials-footer-icon {
-  fill: var(--color-cloud);
   width: 40px;
   height: 40px;
+  fill: var(--color-cloud);
+  
+}
+
+.socials-footer-item {
+ 
 }
 
 /*
