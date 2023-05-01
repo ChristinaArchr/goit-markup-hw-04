@@ -192,7 +192,11 @@ body {
   color: var(--pressed-state);
 }
 
-/* Hero */
+/**
+  |============================
+  | Hero Section
+  |============================
+*/
 
 .hero {
   background-color: var(--grey-bg);
@@ -246,7 +250,11 @@ body {
   background-color: var(--pressed-state);
 }
 
-/* Features */
+/**
+  |============================
+  | Features Section
+  |============================
+*/
 
 .features-list-item {
   width: calc((100%-72px) / 4);
@@ -268,7 +276,11 @@ body {
   margin-bottom: 8px;
 }
 
-/* Work */
+/**
+  |============================
+  | Team Section
+  |============================
+*/
 
 .overview-section.section {
   padding-top: 0;
@@ -278,7 +290,11 @@ body {
   border: 1px solid var(--color-cornflower);
 }
 
-/* Team */
+/**
+  |============================
+  | Team Section
+  |============================
+*/
 
 .team-section {
   background-color: var(--color-cloud);
@@ -321,7 +337,11 @@ body {
   object-fit: cover;
 }
 
-/* Customers */
+/**
+  |============================
+  | Customers
+  |============================
+*/
 
 .customers-title {
   line-height: 1.1;
